@@ -1,6 +1,5 @@
 body{
   background : #282a36;
-  align : center;
 }
 .space{
   height : 2em;
@@ -24,7 +23,7 @@ iframe{
   margin-bottom: 50px;
 }
 h1{
-  color : deeppink;
+  color : red;
 }
 h2{
   color : #2eccfa;
@@ -90,6 +89,55 @@ hr{
   border : 2px free white;
   border-radius: 4px;
 }
-#an{
+.an{
   display : inline-block;
+}
+.topper{
+  display : inline;
+  position: relative;
+  bottom : 10px;
+  left : 40%;
+}
+.topper1{
+  display : inline;
+  position: relative;
+  bottom : 10px;
+}
+#sarcoma{
+  margin-top: 5%;
+  position : absolute;
+  right: 0%;
+}
+h4{
+  color : white;
+}
+.hide{
+  display : none;
+}
+#iota:hover + .hide{
+  display : block;
+  color : red;
+} 
+#info{
+  color : #f00;
+  font-size: 14px;
+  width : 33%;
+  margin-right : 25%;
+  margin-left : 35%;
+}
+.dbd{
+  width: 50%;
+  margin: 5% 25% 25% auto;
+  background-color: #333;
+  border : solid blue 1px;
+
+}
+.dbd p{
+  color : #bbb;
+  margin : auto auto 2% auto;
+
+}
+.dbd h2{
+  margin-left : 5%;
+  margin-bottom: 5%;
 }
