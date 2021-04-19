@@ -141,3 +141,18 @@ h4{
   margin-left : 5%;
   margin-bottom: 5%;
 }
+
+.actu{
+  width: 50%;
+  margin: 5% 25% 25% 5%;
+  background-color: #2c2e3a;
+}
+.actu h2{
+  color: #f00;
+}
+.ana{
+  display : inline-flex;
+  position : relative;
+  bottom : 100px;
+  margin : 0;
+}
